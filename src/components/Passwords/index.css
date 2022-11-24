@@ -1,0 +1,138 @@
+.password-item {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #f8fafc;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .password-item {
+    width: 80%;
+    max-width: 250px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .initial-container {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.initial {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .initial {
+    font-size: 16px;
+  }
+}
+
+.website-and-password-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.display-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .display-text {
+    font-size: 18px;
+  }
+}
+
+.delete-container {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  margin: 0px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.delete {
+  height: 20px;
+  width: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .delete {
+    height: 25px;
+    width: 25px;
+  }
+}
+.stars-image {
+  width: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .stars-image {
+    width: 80px;
+  }
+}
